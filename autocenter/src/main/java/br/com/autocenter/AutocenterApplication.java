@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import br.com.autocenter.controller.BrandController;
 
 @SpringBootApplication
-public class AutocenterGambaApplication {
+public class AutocenterApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AutocenterGambaApplication.class, args);
+		SpringApplication.run(AutocenterApplication.class, args);
 	}
 
 }

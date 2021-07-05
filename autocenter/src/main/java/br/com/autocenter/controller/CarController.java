@@ -62,9 +62,7 @@ public class CarController {
 	}
 	@PutMapping("/{id}")
 	public void updateCarInformation(@RequestBody @Valid PatchForm form, @PathVariable String id) {
-		System.out.println("Tentando atualizar "+ id);
 		Car car = carService.patch(form,id);
-		System.out.println("Saida final " + car.getColor());
 	}
 	@CrossOrigin
 	@DeleteMapping("/{id}")
